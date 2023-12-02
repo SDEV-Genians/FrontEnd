@@ -43,7 +43,7 @@ const App = (props) => {
             <AuthConsumer>
               {
                 (auth) => auth.isLoading
-                  ? <SplashScreen />
+                  ? getLayout(<Component {...pageProps} />)//<SplashScreen />
                   : getLayout(<Component {...pageProps} />)
               }
             </AuthConsumer>

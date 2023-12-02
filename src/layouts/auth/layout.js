@@ -85,7 +85,8 @@ export const Layout = (props) => {
                 sx={{ color: '#15B79E' }}
                 target="_blank"
               >
-                Devias Kit
+                MINI KIT
+                {/* Devias Kit */}
               </Box>
             </Typography>
             <Typography
@@ -93,11 +94,12 @@ export const Layout = (props) => {
               sx={{ mb: 3 }}
               variant="subtitle1"
             >
-              A professional kit that comes with ready-to-use MUI components.
+              Try the authentication test on the Mini Kit
             </Typography>
             <img
               alt=""
-              src="/assets/auth-illustration.svg"
+              src="/assets/auth_image.svg"
+              // src="/assets/auth-illustration.svg"
             />
           </Box>
         </Grid>
