@@ -128,15 +128,15 @@ export const AuthProvider = (props) => {
   };
 
   const signIn = async (email, password) => {
-    if (email !== 'demo@devias.io' || password !== 'Password123!') {
-      throw new Error('Please check your email and password');
-    }
+    // if (email !== 'demo@devias.io' || password !== 'Password123!') {
+    //   throw new Error('Please check your email and password');
+    // }
 
-    try {
-      window.sessionStorage.setItem('authenticated', 'true');
-    } catch (err) {
-      console.error(err);
-    }
+    // try {
+    //   window.sessionStorage.setItem('authenticated', 'true');
+    // } catch (err) {
+    //   console.error(err);
+    // }
 
     const user = {
       id: '5e86809283e28b96d2d38537',
